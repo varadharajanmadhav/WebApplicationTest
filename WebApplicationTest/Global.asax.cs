@@ -14,7 +14,7 @@ namespace WebApplicationTest
         void Application_Start(object sender, EventArgs e)
         {
             // Code that runs on application startup asdasdasd1 sdfdsfdsfdsf test2 test3 CR1 CR2 CR3 CR4
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            RouteConfig.RegisterRoutes(RouteTable.Routes); //CR5
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
