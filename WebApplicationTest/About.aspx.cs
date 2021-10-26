@@ -7,11 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace WebApplicationTest
 {
+    //Adding CR8 Changes
     public partial class About : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //Adding CR7 changes
         }
     }
 }
