@@ -18,7 +18,7 @@ namespace WebApplicationTest
             BundleConfig.RegisterBundles(BundleTable.Bundles); //CR6
 
 
-            //Savita change
+            //Savita change-varadha review done
         }
     }
 }
