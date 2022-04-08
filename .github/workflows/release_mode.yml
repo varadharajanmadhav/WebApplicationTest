@@ -41,4 +41,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: published_webapp
-          path: bin\app.publish
+          path: bin/app.publish/
