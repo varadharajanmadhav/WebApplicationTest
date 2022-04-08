@@ -38,7 +38,7 @@ jobs:
         run: msbuild WebApplicationTest.sln /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
  
       - name: Upload Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: published_webapp
           path: bin\app.publish
